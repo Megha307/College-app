@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjeevkumar.corona1.registeractivity"
+    android:background="@drawable/backimage">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="30dp"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F39C12">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:hint=" MEMBER 1 "
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <EditText
+
+                android:id="@+id/Username"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:hint="MEMBER 2"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/college"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Username"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:hint="COLLEGE"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="5dp">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="GENDER"-->
+                    <!--android:color="#000000"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:layout_marginTop="2dp"/>-->
+                <!--<RadioGroup-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/male"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="MALE"-->
+                        <!--/>-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/female"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="FEMALE"-->
+                        <!--/>-->
+
+                <!--</RadioGroup>-->
+
+            <!--</LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp">
+                />
+
+                <EditText
+                    android:layout_below="@id/college"
+                    android:id="@+id/glink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edittext"
+                    android:hint="GITHUB LINK"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="20sp" />
+                <!--<EditText-->
+                    <!--android:id="@+id/weight"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@id/Password"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:background="@drawable/edittext"-->
+                    <!--android:hint="WT.(kgs)"-->
+                    <!--android:inputType="numberSigned"-->
+                    <!--android:textSize="20sp"-->
+                    <!--android:padding="5dp"/>-->
+                <EditText
+                    android:id="@+id/glinktwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/college"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edittext"
+                    android:hint="GITHUB LINK2"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            <!--<EditText-->
+                <!--android:id="@+id/Mobileno"-->
+                <!--android:layout_width="250dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:background="@drawable/edittext"-->
+                <!--android:hint="TOPIC WORKING ON"-->
+                <!--android:inputType="phone"-->
+                <!--android:textSize="20sp"-->
+                <!--android:padding="5dp"/>-->
+
+
+
+            <Button
+                android:id="@+id/submitbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=" NEXT "
+                android:background="@drawable/btn"
+                android:textSize="17dp"/>
+            <Button
+                android:textSize="17dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="viewdata"
+                android:id="@+id/viewdata"/>
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/checkbutton"-->
+                <!--android:text="CHECK "/>-->
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

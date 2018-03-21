@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/teamname"
+        android:textSize="20dp"
+        android:textColor="@color/Black"/>
+    <RadioGroup
+        android:id="@+id/teamlevel"
+        android:layout_toRightOf="@id/teamname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/rone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="round 1"
+            android:textSize="20dp"/>
+        <CheckBox
+            android:id="@+id/rtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="round 2"
+            android:textSize="20dp"/>
+        <CheckBox
+            android:id="@+id/rthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="round 3"
+            android:textSize="20dp"/>
+        <CheckBox
+            android:id="@+id/rfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="round 4"
+            android:textSize="20dp"/>
+        <CheckBox
+            android:id="@+id/rfive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="round 5"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjeevkumar.corona1.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/starry">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/lightorange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CORONA"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:textSize="60sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:textColor="@color/lightdarkerorange"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="BETTER THAN EVER"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/handdrawn">
+        <Button
+
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="REGISTER TEAMS"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+

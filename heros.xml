@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member one"
+        android:id="@+id/memberone"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"/>
+    <!--<TextView-->
+        <!--android:id="@+id/updatetextview"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@id/memberone"-->
+        <!--android:text="UPDATE"-->
+        <!--android:layout_marginLeft="60dp"-->
+        <!--android:textSize="15dp"/>-->
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:id="@+id/editmemeberone"
+        android:layout_toRightOf="@+id/memberone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_margin="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member Two"
+        android:id="@+id/membertwo"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/editmemeberone"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/editmemeberone"
+        android:layout_toRightOf="@+id/membertwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editmembertwo"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Name"
+        android:id="@+id/collegename"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_below="@id/membertwo"/>
+
+    <TextView
+        android:id="@+id/editcollege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/collegename"
+        android:layout_toEndOf="@+id/goneview"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_margin="10dp"
+
+        android:layout_below="@id/collegename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member 1 github"
+        android:id="@+id/goneview"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/editgone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/goneview"
+        android:layout_alignBottom="@+id/goneview"
+        android:layout_toEndOf="@+id/editglinkthree"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/goneview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Member 2 github"
+        android:id="@+id/gtwoview"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/editgtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gtwoview"
+        android:layout_alignStart="@+id/editgone"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memthree"
+        android:text="Member 3"
+        android:layout_below="@id/gtwoview"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/editmemthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/memthree"
+        android:layout_alignBottom="@+id/memthree"
+        android:layout_alignEnd="@+id/gtwoview"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/glinkthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/memthree"
+        android:text="Member 3 github"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/editglinkthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/glinkthree"
+        android:layout_alignBottom="@+id/glinkthree"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_toStartOf="@+id/glinkthree"/>
+
+</RelativeLayout>
